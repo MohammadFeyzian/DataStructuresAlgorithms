@@ -28,7 +28,7 @@ private class MemoizeAdd {
 
     private fun memoizeAddTo80(n: Int): Int {
         return if (cache.contains(n)) {
-            println("Caching")
+            println("Cacheing")
             cache[n]!!
         } else {
             println("Long operation is happening")
